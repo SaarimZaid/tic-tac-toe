@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+h1{
+    color: brown;
+}
+
+table,tr,td{
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+.cell{
+    width: 100px;
+    height: 100px;
+    border: 4px solid black;
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+    color: brown;
+}
+#result{
+    font-size: xx-large;
+    color: rgb(240, 49, 49);
+    margin-bottom: 10px;
+}
+#playerTurn{
+    font-size: larger;
+    padding: 20px;
+    color: brown;
+}
+button{
+    font-size: x-large;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: brown;
+    border: 1px solid rgb(168, 236, 236);
+    background-color: azure;
+}

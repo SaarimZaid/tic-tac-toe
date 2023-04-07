@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <div id="result"></div>
+    <div id="newGame"></div>
+    <table>
+        <tr>
+            <td class="cell" onclick="playerMove(this)" style="border: none;"></td>
+            <td class="cell" onclick="playerMove(this)" style="border-top: none;"></td>
+            <td class="cell" onclick="playerMove(this)" style="border: none;"></td>
+        </tr>
+        <tr>
+            <td class="cell" onclick="playerMove(this)" style="border-left: none;"></td>
+            <td class="cell" onclick="playerMove(this)"></td>
+            <td class="cell" onclick="playerMove(this)" style="border-right: none;"></td>
+        </tr>
+        <tr>
+            <td class="cell" onclick="playerMove(this)" style="border: none;"></td>
+            <td class="cell" onclick="playerMove(this)" style="border-bottom: none;"></td>
+            <td class="cell" onclick="playerMove(this)" style="border: none;"></td>
+        </tr>
+    </table>
+    <div id="playerTurn">'X' Turn</div>
+    <button onclick="reset()">Restart</button>
+</body>
+</html>
